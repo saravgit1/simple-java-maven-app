@@ -3,7 +3,7 @@
 node {
 stage ('git')
 {
-scm checkout
+git clone https://github.com/Kushagra92/simple-java-maven-app.git
 }
 stage ('build')
 {
