@@ -7,7 +7,7 @@ checkout scm
 }
 stage('Build')
 {
-sh 'mvn clean install'
+sh 'maven clean install'
 }
 stage('deploy')
 {
